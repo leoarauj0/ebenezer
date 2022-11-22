@@ -15,11 +15,28 @@ warning
 info
 
 */
+type Props = {
+  type: string;
+  data: {
+    message: string;
+    description: string;
+  };
+};
+// const onNotification = (props: Props) => {
+//   return notification[props.type]({
+//     message: props.data.message,
+//     description: props.data.description,
+//   });
+// };
 
-const onNotification = (type, data) => {
-  return notification[type]({
-    message: data.message,
-    description: data.description,
+const onNotification = () => {
+  notification.open({
+    message: "Notification Title",
+    description:
+      "This is the content of the notification. This is the content of the notification. This is the content of the notification.",
+    onClick: () => {
+      console.log("Notification Clicked!");
+    },
   });
 };
 
