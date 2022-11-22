@@ -2,7 +2,7 @@ import axios from "axios";
 import Router from "next/router";
 import { createContext, ReactNode, useState } from "react";
 import { api } from "../../services/api";
-import qs from "qs";
+// import qs from "qs";
 
 type SignInCredenciais = {
   username: string;
@@ -15,9 +15,9 @@ type AuthContextData = {
 };
 
 type Usuario = {
-  username;
-  roles;
-  permissions;
+  username: string;
+  roles: string;
+  permissions: string;
 };
 
 type AuthProviderProps = { children: ReactNode };
