@@ -39,6 +39,14 @@ export default function CMenu(props: Props) {
       {/* <Space align="center"> */}
       <Space align="center" size={1}>
         <Image
+          src="/logo-menu.png"
+          alt="Ebenezer Logo"
+          width={300}
+          height={100}
+          preview={false}
+          style={{ margin: "-5px" }}
+        />
+        {/* <Image
           src="/logo-colorida.svg"
           alt="Ebenezer Logo"
           width={50}
@@ -46,7 +54,7 @@ export default function CMenu(props: Props) {
           preview={false}
           style={{ margin: "-5px" }}
         />
-        <h3>Comunidade Católica Ebenezer</h3>
+        <h3>Comunidade Católica Ebenezer</h3> */}
       </Space>
       <Space align="center" size={45}>
         <h3>Início</h3>
