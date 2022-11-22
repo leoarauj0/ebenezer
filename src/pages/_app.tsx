@@ -10,12 +10,12 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <AuthProvider>
       <UsuarioContext.Provider value={"Léo Araújo"}>
-        <div className={styles.wrapper}>
-          {/* <Menu /> */}
-          <main>
-            <Component {...pageProps} />
-          </main>
-        </div>
+        {/* <div className={styles.wrapper}> */}
+        {/* <Menu /> */}
+        <main>
+          <Component {...pageProps} />
+        </main>
+        {/* </div> */}
       </UsuarioContext.Provider>
     </AuthProvider>
   );

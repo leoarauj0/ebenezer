@@ -6,6 +6,7 @@ import ptBR from "date-fns/locale/pt-BR";
 import { Image, Avatar, Button, Carousel } from "antd";
 import { UserOutlined } from "@ant-design/icons";
 import styles from "./styles.module.scss";
+import CMenu from "../Menu";
 
 type Props = {
   texto: string;
@@ -13,17 +14,32 @@ type Props = {
 
 export default function CHeader(props: Props) {
   return (
-    <Carousel effect="fade">
-      <div className={styles.slide1}>
-        <h1>1</h1>
-      </div>
-      <div className={styles.slide1}>
-        <h1>1</h1>
-      </div>
-      <div className={styles.slide1}>
-        <h1>1</h1>
-      </div>
-    </Carousel>
+    <>
+      <CMenu />
+      <Carousel
+        effect="scrollx"
+        autoplay
+        pauseOnHover
+        pauseOnDotsHover
+        draggable
+      >
+        <div className={styles.slide1}>
+          <div className={styles.center}>
+            <h1>1</h1>
+          </div>
+        </div>
+        <div className={styles.slide1}>
+          <div className={styles.center}>
+            <h1>2</h1>
+          </div>
+        </div>
+        <div className={styles.slide1}>
+          <div className={styles.center}>
+            <h1>3</h1>
+          </div>
+        </div>
+      </Carousel>
+    </>
     // <div className={styles.container}>
     //   <h1>{props.texto}</h1>
     // </div>

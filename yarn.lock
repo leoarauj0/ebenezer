@@ -372,10 +372,10 @@ antd-mask-input@^2.0.7:
   dependencies:
     imask "6.4.2"
 
-antd@^4.24.2:
-  version "4.24.2"
-  resolved "https://registry.yarnpkg.com/antd/-/antd-4.24.2.tgz#3c3d8f42846857e34eba86a1374ad63423a1d282"
-  integrity sha512-ItSltW72hkQCPE/xjl27n58STTGEhL85+Gj2I6TPnu5JYsAKHWfHu7hyGWXPXV015Oh48tqL1QUovxd/kCaUtg==
+antd@^4.24.3:
+  version "4.24.3"
+  resolved "https://registry.yarnpkg.com/antd/-/antd-4.24.3.tgz#f712b3490622d9c642dd450a6dc14f4de614bd7f"
+  integrity sha512-3Jv9ktv3Zy1shiVdwnvCgbwRExyGj9Ha8P+GA2rQXBP/t3G7EvpSijSx7cdIy6eLYjEKjuNTqNv0c2kxQX5obQ==
   dependencies:
     "@ant-design/colors" "^6.0.0"
     "@ant-design/icons" "^4.7.0"
@@ -2735,9 +2735,9 @@ rc-tooltip@~5.2.0:
     rc-trigger "^5.0.0"
 
 rc-tree-select@~5.5.0:
-  version "5.5.4"
-  resolved "https://registry.yarnpkg.com/rc-tree-select/-/rc-tree-select-5.5.4.tgz#5eef6845fd71085c52c042553abb3bfe7a0108f3"
-  integrity sha512-RdqOm3o+ybpdD3Jc+fYJ2hXlcODcMQIqSytjWzdTh7n2h5i7yIjSx4mprdbrF/buykU6kg1LURseWz9S2e6P2Q==
+  version "5.5.5"
+  resolved "https://registry.yarnpkg.com/rc-tree-select/-/rc-tree-select-5.5.5.tgz#d28b3b45da1e820cd21762ba0ee93c19429bb369"
+  integrity sha512-k2av7jF6tW9bIO4mQhaVdV4kJ1c54oxV3/hHVU+oD251Gb5JN+m1RbJFTMf1o0rAFqkvto33rxMdpafaGKQRJw==
   dependencies:
     "@babel/runtime" "^7.10.1"
     classnames "2.x"

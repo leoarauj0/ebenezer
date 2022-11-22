@@ -15,15 +15,27 @@
 
 .slide1 {
   display: flex;
-  // flex: 1;
   align-items: center;
   justify-content: center;
   // position: relative;
   width: 100vw;
   height: 70vh;
-  margin: -1.1rem -1.1rem;
+  // margin: -1.1rem -1.1rem;
   background: url("/header/home.png");
+  background-color: black;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+
+  .center {
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    h1 {
+      color: white;
+      // z-index: 999;
+    }
+  }
 }
