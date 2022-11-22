@@ -3,6 +3,7 @@ import Head from "next/head";
 import Image from "next/image";
 import CButton from "../components/Button";
 import CHeader from "../components/Header";
+import CMenu from "../components/Menu";
 import styles from "../styles/Home.module.scss";
 
 const { Option } = Select;
@@ -23,10 +24,11 @@ export default function Home() {
         />
       </Head>
 
+      <CMenu />
       <main className={styles.main}>
-        <div style={{ width: "100%", height: "100vh" }}>
+        {/* <div style={{ width: "100%", height: "100vh" }}>
           <CHeader texto="Bem Vindo" />
-        </div>
+        </div> */}
         <Image
           src="/logo-colorida.svg"
           alt="Ebenezer Logo"

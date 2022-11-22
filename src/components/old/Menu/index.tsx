@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import { useContext, useEffect, useState } from "react";
-import { UsuarioContext } from "../../context/UsuarioContext";
+// import { UsuarioContext } from "../../context/UsuarioContext";
 import format from "date-fns/format";
 import ptBR from "date-fns/locale/pt-BR";
 import { Image, Avatar, Button, Space } from "antd";
@@ -35,19 +35,33 @@ export default function CMenu(props: Props) {
   }
 
   return (
-    <>
-      <div className={styles.container}>
-        {/* <Space align="center"> */}
-        {/* <Space align="center" size={1}> */}
+    <div className={menu ? styles.container : styles.containerActive}>
+      {/* <Space align="center"> */}
+      <Space align="center" size={1}>
         <Image
           src="/logo-menu.png"
           alt="Ebenezer Logo"
-          width={"100%"}
-          height={140}
+          width={300}
+          height={100}
           preview={false}
-          // style={{ margin: "-5px" }}
+          style={{ margin: "-5px" }}
         />
-        <Space align="center" size={10} className={styles.social}>
+        {/* <Image
+          src="/logo-colorida.svg"
+          alt="Ebenezer Logo"
+          width={50}
+          height={50}
+          preview={false}
+          style={{ margin: "-5px" }}
+        />
+        <h3>Comunidade Católica Ebenezer</h3> */}
+      </Space>
+      <Space align="center" size={45}>
+        <h3>Início</h3>
+        <h3>Sobre</h3>
+        <h3>Contato</h3>
+        <h3>Login</h3>
+        <Space align="center" size={10}>
           <h3>
             <FacebookOutlined />
           </h3>
@@ -58,20 +72,8 @@ export default function CMenu(props: Props) {
             <YoutubeOutlined />
           </h3>
         </Space>
-      </div>
-      <div className={styles.menu}>
-        {/* </Space> */}
-        {/* <Space align="center" size={105}> */}
-        <h3></h3>
-        <h3>Início</h3>
-        <h3>Sobre</h3>
-        <h3>Contato</h3>
-        <h3>Login</h3>
-        <h3></h3>
-
-        {/* </Space> */}
-        {/* </Space> */}
-      </div>
-    </>
+      </Space>
+      {/* </Space> */}
+    </div>
   );
 }
