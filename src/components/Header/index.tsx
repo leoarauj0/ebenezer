@@ -15,7 +15,7 @@ type Props = {
 export default function CHeader(props: Props) {
   return (
     <>
-      <CMenu />
+      {/* <CMenu /> */}
       <Carousel
         effect="scrollx"
         autoplay

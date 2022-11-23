@@ -1,15 +1,16 @@
 .footer {
-  background-color: var(--white);
-  height: 4rem;
+  // background-color: aqua;
 
   display: flex;
+  flex: 1;
+  height: 2.5rem;
+  padding: 1rem 4rem;
   align-items: center;
+  // justify-content: center;
 
-  padding: 2rem 4rem;
+  // margin: 1.5rem 0;
 
-  margin: 1.5rem 0;
-
-  border-bottom: 1px solid var(--gray-100);
+  border: 1px solid var(--gray-100);
   border-radius: 20px;
 
   // .usuario {
