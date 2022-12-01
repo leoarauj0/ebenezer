@@ -11,7 +11,7 @@ type Props = {
 
 const Template = ({ children }: Props) => {
   return (
-    <>
+    <div className={styles.template}>
       <CMenu2 />
       <div
         className={styles.container}
@@ -20,7 +20,7 @@ const Template = ({ children }: Props) => {
         <Content>{children}</Content>
       </div>
       <Footer />
-    </>
+    </div>
   );
 };
 

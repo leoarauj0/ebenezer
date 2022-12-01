@@ -1,6 +1,6 @@
 import "../styles/globals.scss";
-import "antd/dist/antd.css";
-import "../styles/antd.less";
+// import "antd/dist/antd.css";
+// import "../styles/antd.less";
 import styles from "../styles/app.module.scss";
 import type { AppProps } from "next/app";
 import { UsuarioContext } from "../context/UsuarioContext";

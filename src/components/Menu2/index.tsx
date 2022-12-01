@@ -47,9 +47,9 @@ export default function CMenu2(props: Props) {
       <Col
         xs={2}
         sm={4}
-        md={6}
-        lg={6}
-        xl={6}
+        md={15}
+        lg={15}
+        xl={15}
         style={{
           display: "flex",
           flexDirection: "row",
@@ -70,9 +70,13 @@ export default function CMenu2(props: Props) {
           width={50}
           height={50}
           preview={false}
-          style={{ margin: "-5px" }}
+          style={{ marginBottom: "-5px" }}
         />
-        <h3>
+        <h3
+        // style={{
+        //   color: "#e9836f",
+        // }}
+        >
           comcat<b>ebenezer.</b>
         </h3>
       </Col>
@@ -80,9 +84,9 @@ export default function CMenu2(props: Props) {
       <Col
         xs={2}
         sm={4}
-        md={6}
-        lg={6}
-        xl={6}
+        md={8}
+        lg={8}
+        xl={8}
         style={{ display: "flex", justifyContent: "center" }}
       >
         <Space align="center" size={45}>
@@ -93,7 +97,7 @@ export default function CMenu2(props: Props) {
         </Space>
       </Col>
 
-      <Col
+      {/* <Col
         xs={2}
         sm={4}
         md={6}
@@ -151,7 +155,7 @@ export default function CMenu2(props: Props) {
             // style={{ margin: "-5px" }}
           />
         </Space>
-      </Col>
+      </Col> */}
     </Row>
   );
 }
