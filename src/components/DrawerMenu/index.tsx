@@ -113,42 +113,42 @@ export function DrawerMenu() {
         </div>
 
         <div className={styles.submenu}>
-          <Link href={`/arquivos/documentos`}>
-            <a
+          {/* <Link href={`/arquivos/documentos`}> */}
+          {/* <a
               className={styles.link}
               onClick={() => setSelecionado("documentos")}
-            >
-              {selecionado === "documentos" ? (
-                <>
-                  <SnippetsOutlined
-                    className={styles.icon}
-                    style={{ color: "#fff" }}
-                  />
-                  <p
-                    style={{
-                      opacity: `${styleMenu.opacity}`,
-                      transition: "opacity 0.8s",
-                      color: "#fff",
-                    }}
-                  >
-                    Documentos Pessoais
-                  </p>
-                </>
-              ) : (
-                <>
-                  <SnippetsOutlined className={styles.icon} />
-                  <p
-                    style={{
-                      opacity: `${styleMenu.opacity}`,
-                      transition: "opacity 0.8s",
-                    }}
-                  >
-                    Documentos Pessoais
-                  </p>
-                </>
-              )}
-            </a>
-          </Link>
+            > */}
+          {selecionado === "documentos" ? (
+            <>
+              <SnippetsOutlined
+                className={styles.icon}
+                style={{ color: "#fff" }}
+              />
+              <p
+                style={{
+                  opacity: `${styleMenu.opacity}`,
+                  transition: "opacity 0.8s",
+                  color: "#fff",
+                }}
+              >
+                Documentos Pessoais
+              </p>
+            </>
+          ) : (
+            <>
+              <SnippetsOutlined className={styles.icon} />
+              <p
+                style={{
+                  opacity: `${styleMenu.opacity}`,
+                  transition: "opacity 0.8s",
+                }}
+              >
+                Documentos Pessoais
+              </p>
+            </>
+          )}
+          {/* </a> */}
+          {/* </Link> */}
         </div>
 
         <div className={styles.menu}>
@@ -156,69 +156,69 @@ export function DrawerMenu() {
         </div>
 
         <div className={styles.submenu}>
-          <Link href={`/visitas/agendamento`}>
-            <a
+          {/* <Link href={`/visitas/agendamento`}> */}
+          {/* <a
               className={styles.link}
               onClick={() => setSelecionado("agendamento")}
-            >
-              {selecionado === "agendamento" ? (
-                <>
-                  <CheckCircleOutlined
-                    className={styles.icon}
-                    style={{ color: "#fff" }}
-                  />
-                  <p
-                    style={{
-                      opacity: `${styleMenu.opacity}`,
-                      transition: "opacity 0.8s",
-                      color: "#fff",
-                    }}
-                  >
-                    Solicitar Visita
-                  </p>
-                </>
-              ) : (
-                <>
-                  <CheckCircleOutlined className={styles.icon} />
-                  <p
-                    style={{
-                      opacity: `${styleMenu.opacity}`,
-                      transition: "opacity 0.8s",
-                    }}
-                  >
-                    Solicitar Visita
-                  </p>
-                </>
-              )}
-            </a>
-          </Link>
-          <Link href={`/visitas/visitasAgendadas`}>
-            <a className={styles.link}>
-              <PicLeftOutlined className={styles.icon} />
+            > */}
+          {selecionado === "agendamento" ? (
+            <>
+              <CheckCircleOutlined
+                className={styles.icon}
+                style={{ color: "#fff" }}
+              />
+              <p
+                style={{
+                  opacity: `${styleMenu.opacity}`,
+                  transition: "opacity 0.8s",
+                  color: "#fff",
+                }}
+              >
+                Solicitar Visita
+              </p>
+            </>
+          ) : (
+            <>
+              <CheckCircleOutlined className={styles.icon} />
               <p
                 style={{
                   opacity: `${styleMenu.opacity}`,
                   transition: "opacity 0.8s",
                 }}
               >
-                Histórico
+                Solicitar Visita
               </p>
-            </a>
-          </Link>
-          <Link href={`/visitas/justificativa`}>
-            <a className={styles.link}>
-              <IssuesCloseOutlined className={styles.icon} />
-              <p
-                style={{
-                  opacity: `${styleMenu.opacity}`,
-                  transition: "opacity 0.8s",
-                  // transform: `${styleMenu.scale}`,
-                }}
-              >
-                Justificativas
-              </p>
-            </a>
-          </Link>
+            </>
+          )}
+          {/* </a> */}
+          {/* </Link>
+          <Link href={`/visitas/visitasAgendadas`}> */}
+          {/* <a className={styles.link}> */}
+          <PicLeftOutlined className={styles.icon} />
+          <p
+            style={{
+              opacity: `${styleMenu.opacity}`,
+              transition: "opacity 0.8s",
+            }}
+          >
+            Histórico
+          </p>
+          {/* </a> */}
+          {/* </Link>
+          <Link href={`/visitas/justificativa`}> */}
+          {/* <a className={styles.link}> */}
+          <IssuesCloseOutlined className={styles.icon} />
+          <p
+            style={{
+              opacity: `${styleMenu.opacity}`,
+              transition: "opacity 0.8s",
+              // transform: `${styleMenu.scale}`,
+            }}
+          >
+            Justificativas
+          </p>
+          {/* </a> */}
+          {/* </Link> */}
 
           {/* <Link href={`/login`}>
             <a className={styles.link}>
@@ -255,18 +255,18 @@ export function DrawerMenu() {
 
         <div className={styles.submenu}>
           <Link href={`/vinculos/solicitacoes`}>
-            <a className={styles.link}>
-              <MenuUnfoldOutlined className={styles.icon} />
-              <p
-                style={{
-                  opacity: `${styleMenu.opacity}`,
-                  transition: "opacity 0.8s",
-                  // transform: `${styleMenu.scale}`,
-                }}
-              >
-                Solicitar Vínculo
-              </p>
-            </a>
+            {/* <a className={styles.link}> */}
+            <MenuUnfoldOutlined className={styles.icon} />
+            <p
+              style={{
+                opacity: `${styleMenu.opacity}`,
+                transition: "opacity 0.8s",
+                // transform: `${styleMenu.scale}`,
+              }}
+            >
+              Solicitar Vínculo
+            </p>
+            {/* </a> */}
           </Link>
           {/* <Link href={`/vinculos/meusVinculos`}>
             <a className={styles.link}>
@@ -290,18 +290,18 @@ export function DrawerMenu() {
 
         <div className={styles.submenu}>
           <Link href={`/conduta/solicitacoes`}>
-            <a className={styles.link}>
-              <ContainerOutlined className={styles.icon} />
-              <p
-                style={{
-                  opacity: `${styleMenu.opacity}`,
-                  transition: "opacity 0.8s",
-                  // transform: `${styleMenu.scale}`,
-                }}
-              >
-                Conduta Carcerária
-              </p>
-            </a>
+            {/* <a className={styles.link}> */}
+            <ContainerOutlined className={styles.icon} />
+            <p
+              style={{
+                opacity: `${styleMenu.opacity}`,
+                transition: "opacity 0.8s",
+                // transform: `${styleMenu.scale}`,
+              }}
+            >
+              Conduta Carcerária
+            </p>
+            {/* </a> */}
           </Link>
         </div>
 
@@ -311,18 +311,18 @@ export function DrawerMenu() {
 
         <div className={styles.submenu}>
           <Link href={`/decisoes/acompanhamentos`}>
-            <a className={styles.link}>
-              <OrderedListOutlined className={styles.icon} />
-              <p
-                style={{
-                  opacity: `${styleMenu.opacity}`,
-                  transition: "opacity 0.8s",
-                  // transform: `${styleMenu.scale}`,
-                }}
-              >
-                Acompanhamentos
-              </p>
-            </a>
+            {/* <a className={styles.link}> */}
+            <OrderedListOutlined className={styles.icon} />
+            <p
+              style={{
+                opacity: `${styleMenu.opacity}`,
+                transition: "opacity 0.8s",
+                // transform: `${styleMenu.scale}`,
+              }}
+            >
+              Acompanhamentos
+            </p>
+            {/* </a> */}
           </Link>
         </div>
 
@@ -332,41 +332,41 @@ export function DrawerMenu() {
 
         <div className={styles.submenu}>
           {/* <Link href={`/contatos/diretores`}> */}
-          <a className={styles.link}>
-            <ContactsOutlined className={styles.icon} />
-            <p
-              style={{
-                opacity: `${styleMenu.opacity}`,
-                transition: "opacity 0.8s",
-                // transform: `${styleMenu.scale}`,
-              }}
-            >
-              Diretores
-            </p>
-          </a>
+          {/* <a className={styles.link}> */}
+          <ContactsOutlined className={styles.icon} />
+          <p
+            style={{
+              opacity: `${styleMenu.opacity}`,
+              transition: "opacity 0.8s",
+              // transform: `${styleMenu.scale}`,
+            }}
+          >
+            Diretores
+          </p>
+          {/* </a> */}
           {/* </Link> */}
         </div>
       </div>
-      <a
+      {/* <a
         className={styles.link}
         onClick={() => {
           mudaMenu();
         }}
+      > */}
+      {fechado === true ? (
+        <LeftOutlined className={styles.icon} />
+      ) : (
+        <RightOutlined className={styles.icon} />
+      )}
+      <p
+        style={{
+          opacity: `${styleMenu.opacity}`,
+          transition: "opacity 0.8s",
+        }}
       >
-        {fechado === true ? (
-          <LeftOutlined className={styles.icon} />
-        ) : (
-          <RightOutlined className={styles.icon} />
-        )}
-        <p
-          style={{
-            opacity: `${styleMenu.opacity}`,
-            transition: "opacity 0.8s",
-          }}
-        >
-          Fechar
-        </p>
-      </a>
+        Fechar
+      </p>
+      {/* </a> */}
     </div>
   );
 }
