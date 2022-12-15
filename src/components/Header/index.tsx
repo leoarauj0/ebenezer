@@ -6,7 +6,7 @@ import ptBR from "date-fns/locale/pt-BR";
 import { Image, Avatar, Button, Carousel } from "antd";
 import { UserOutlined } from "@ant-design/icons";
 import styles from "./styles.module.scss";
-import CMenu from "../Menu";
+// import CMenu from "../Menu";
 
 type Props = {
   texto: string;
