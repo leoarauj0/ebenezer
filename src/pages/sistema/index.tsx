@@ -1,4 +1,4 @@
-import { Select } from "antd";
+import { Select, Button } from "antd";
 import SistemaTemplate from "../../components/Templates/sistemas/sistema";
 
 const { Option } = Select;
@@ -6,7 +6,7 @@ const { Option } = Select;
 const Home = () => {
   return (
     <SistemaTemplate>
-      <p>sl</p>
+      <Button type="primary">lol</Button>
       <p>sl</p>
       <p>sl</p>
       <p>sl</p>

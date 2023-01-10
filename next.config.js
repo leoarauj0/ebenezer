@@ -1,16 +1,37 @@
 /** @type {import('next').NextConfig} */
-const withLess = require("next-with-less");
 
-module.exports = withLess({
+const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-  lessLoaderOptions: {},
-  // basePath: "/seap-adv",
-});
+  // images: {
+  //   domains: ["images-americanas.b2w.io"],
+  // },
 
-// const nextConfig = {
+  // basePath: "/seap-adv",
+};
+
+module.exports = nextConfig;
+
+// module.exports = withLess({
 //   reactStrictMode: true,
 //   swcMinify: true,
-// };
+//   lessLoaderOptions: {},
+//   // basePath: "/seap-adv",
+// });
 
-// module.exports = nextConfig;
+// const withImages = require('next-images')
+// const withLess = require('@zeit/next-less')
+
+// module.exports = withImages({
+//   cssModules: true,
+//   cssLoaderOptions: {
+//     importLoaders: 1,
+//     localIdentName: '[local]___[hash:base64:5]'
+//   },
+//   ...withLess({
+//     lessLoaderOptions: {
+//       javascriptEnabled: true
+//     }
+//   }),
+//   basePath: "/seap-adv",
+// })

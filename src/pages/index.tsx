@@ -7,9 +7,54 @@ const { Option } = Select;
 
 const Home = () => {
   return (
-    <SiteTemplate>
-      <></>
-    </SiteTemplate>
+    <>
+      <SiteTemplate>
+        <p>lol</p>
+        <p>lol</p>
+        <p>lol</p>
+        <p>lol</p>
+        <p>lol</p>
+        <p>lol</p>
+        <p>lol</p>
+        <p>lol</p>
+        <p>lol</p>
+        <p>lol</p>
+        <p>lol</p>
+        <p>lol</p>
+        <p>lol</p>
+        <p>lol</p>
+        <p>lol</p>
+        <p>lol</p>
+        <p>lol</p>
+        <p>lol</p>
+        <p>lol</p>
+        <p>lol</p>
+        <p>lol</p>
+        <p>lol</p>
+        <p>lol</p>
+        <p>lol</p>
+        <p>lol</p>
+        <p>lol</p>
+        <p>lol</p>
+        <p>lol</p>
+        <p>lol</p>
+        <p>lol</p>
+        <p>lol</p>
+        <p>lol</p>
+        <p>lol</p>
+        <p>lol</p>
+        <p>lol</p>
+        <p>lol</p>
+        <p>lol</p>
+        <p>lol</p>
+        <p>lol</p>
+        <p>lol</p>
+        <p>lol</p>
+        <p>lol</p>
+        <p>lol</p>
+        <p>lol</p>
+      </SiteTemplate>
+    </>
   );
 };
 

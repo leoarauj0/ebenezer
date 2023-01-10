@@ -12,7 +12,7 @@ type Props = {
   // text: string;
 };
 
-export default function Footer(props: Props) {
+export default function FooterHeader(props: Props) {
   const [face, setFace] = useState(false);
   const [whats, setWhats] = useState(false);
   const [yt, setYt] = useState(false);

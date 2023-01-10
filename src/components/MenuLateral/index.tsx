@@ -45,7 +45,7 @@ export function MenuList() {
   const mudaMenu = () => {
     setFechado(!fechado);
     fechado === false
-      ? setStyleMenu({ width: "16rem", opacity: 1, scale: "scale(1)" })
+      ? setStyleMenu({ width: "20rem", opacity: 1, scale: "scale(1)" })
       : setStyleMenu({ width: "5rem", opacity: 0, scale: "scale(0)" });
   };
 
