@@ -11,7 +11,8 @@ type Props = {
   children: React.ReactNode;
 };
 
-const SiteTemplate = ({ children }: Props) => {
+// const SiteTemplate = ({ children }: Props) => {
+const SiteTemplate = () => {
   return (
     <div className={styles.content}>
       <div className={styles.header}>
@@ -223,29 +224,48 @@ const SiteTemplate = ({ children }: Props) => {
           </Col>
         </Row>
 
-        <p>lol</p>
-        <p>lol</p>
-        <p>lol</p>
-        <p>lol</p>
-        <p>lol</p>
-        <p>lol</p>
-        <p>lol</p>
-        <p>lol</p>
-        <p>lol</p>
-        <p>lol</p>
-        <p>lol</p>
-        <p>lol</p>
-        <p>lol</p>
-        <p>lol</p>
-        <p>lol</p>
-        <p>lol</p>
-        <p>lol</p>
-        <p>lol</p>
-        <p>lol</p>
-        <p>lol</p>
-        <p>lol</p>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
       </div>
-      <Content>{children}</Content>
+      {/* <Content>{children}</Content> */}
     </div>
   );
 };
